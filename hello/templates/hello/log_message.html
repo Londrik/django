@@ -1,0 +1,10 @@
+{% extends "hello/layout.html" %}
+{% block title %}Registrar Mensagem{% endblock %}
+
+{% block content %}
+<form method="POST" class="log-form">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Salvar</button>
+</form>
+{% endblock %}

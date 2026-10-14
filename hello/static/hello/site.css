@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #2e3440;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.navbar a {
+    color: #eceff4;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.body-content {
+    padding: 15px;
+    font-family: sans-serif;
+}
+.message_list th, td {
+    text-align: left;
+    padding: 6px 12px;
+}
+input[name=message] {
+    width: 60%;
+    padding: 5px;
+}
